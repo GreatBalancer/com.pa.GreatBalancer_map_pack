@@ -1,0 +1,52 @@
+{
+    "context": "client",
+    "identifier": "com.pa.GreatBalancer",
+    "display_name": "GreatBalancer's Map Pack",
+    "description": "A lot of maps for all type of games.1v1,2vs2,3vs3,4vs4,5vs5 and FFA's.Land,water,multiplanet stuff. 60+ systems you will find here.Warning! A lot off biomes was used here",
+    "author": "GreatBalancer",
+    "version": "1.0",
+    "build": "116982",
+    "date": "2024-03-14",
+    "signature": "not yet implemented",
+    "icon": "https://forums.planetaryannihilation.com/data/avatars/l/1980/1980961.jpg?1424712491",
+    "category": [
+        "maps",
+        "titans"
+    ],
+    "scenes": {
+        "load_planet": [
+            "coui://ui/mods/GreatBalancer/maps.js"
+        ]
+    },
+    "searchable": [
+        "GreatBalancer",
+        "map",
+        "pack",
+        "maps",
+        "systems",
+        "system",
+        "planet",
+        "ffa",
+        "1v1",
+        "team",
+        "foundry"
+    ],
+    "priority": 100,
+    "titansOnly": true,
+    "classicOnly": false,
+    "classic": false,
+    "titans": true,
+    "enabled": true,
+    "dependencies": [
+        "com.pa.conundrum.cShareSystems",
+        "com.pa.grandhomie.simplebiomes.server",
+        "com.pa.anonemous2.alienworlds.released.server",
+        "com.pa.ematarkus.moarbiomes.server",
+        "uk.pa.tetctree.server",
+        "com.pa.fabberking.gashybrid.server",
+        "com.wondible.pa.devastated_metal_biome.server",
+        "com.wondible.pa.hidden_biomes",
+        "com.pa.areslord.plantscsg.server",
+        "com.pa.areslord.platonic.server"
+    ]
+}
